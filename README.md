@@ -26,4 +26,7 @@ mysql-exporter镜像地址地址
 docker run -d -p 9104:9104 --name hou -v /root/.my.cnf:/root/.my.cnf huchaoying/mysqld-exporter:v10
 
 
+
 mysqld-exporter的默认端口是9104
+
+参考地址：https://www.cnblogs.com/xiangsikai/p/11289675.html

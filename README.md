@@ -6,7 +6,7 @@
 ---
 mysql-exporter镜像地址地址
 
-    docker push huchaoying/mysqld-exporter:v10
+    docker pull huochaoying/mysqld-exporter:v10
 
 图标模板：https://grafana.com/dashboards/7362
 

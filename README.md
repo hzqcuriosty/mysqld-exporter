@@ -15,7 +15,8 @@ mysql-exporter镜像地址地址
 
     vim .my.cnf
     [client] 
-    user=username     //mysql 数据授权用户 password=password //数据库密码 
+    user=username     //mysql 数据授权用户 
+    password=password //数据库密码 
     host=ip           //数据库ip地址
     port=3306         //默认可以不写
     
@@ -23,7 +24,7 @@ mysql-exporter镜像地址地址
 ---
 运行
 
-docker run -d -p 9104:9104 --name hou -v /root/.my.cnf:/root/.my.cnf huchaoying/mysqld-exporter:v10
+docker run -d -p 9104:9104 --name mysql-exporter  -v /root/.my.cnf:/root/.my.cnf huchaoying/mysqld-exporter:v10
 
 
 
